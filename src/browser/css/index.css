@@ -8,6 +8,12 @@
   src: url('../../assets/fonts/open-sans-v13-latin-ext_latin_cyrillic-ext_greek-ext_greek_cyrillic_vietnamese-600.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Open Sans Light';
+  font-style: light;
+  font-weight: 400;
+  src: url('../../assets/fonts/OpenSans-Light.woff2') format('woff2');
+}
 html {
   height: 100%;
 }
