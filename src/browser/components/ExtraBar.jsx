@@ -28,16 +28,15 @@ export default class ExtraBar extends React.Component {
           className={'container-fluid'}
           onClick={this.handleBack}
         >
-          <span
-            id={'back_button_icon'}
-            className={'backIcon fa fa-1x fa-angle-left'}
-            title={'Back Icon'}
-          />
           <Button
-            className={'backLabel'}
             bsStyle={'link'}
             bsSize={'xsmall'}
-          >{'Back'}</Button>
+          >
+            <span className={'backIcon fa fa-1x fa-angle-left'}/>
+            <span className={'backLabel'}>
+              {'Back'}
+            </span>
+          </Button>
         </div>
       </Row>
     );
