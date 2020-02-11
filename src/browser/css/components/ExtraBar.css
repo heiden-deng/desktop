@@ -2,10 +2,11 @@
     max-height: 76px;
     transition: max-height 0.25s ease;
     background-color: #f5f5f5;
+    -webkit-font-smoothing: antialiased;
 }
 
 #extra-bar div {
-    padding: 0 1em 0.058em;
+    padding: 0 1em 0.2em;
 }
 
 #extra-bar.hidden {
@@ -13,8 +14,8 @@
 }
 
 span.backLabel {
-    font-family: "Open Sans Regular", sans-serif;
-    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
     line-height: 30px;
     font-size: 14px;
     padding-top: 0px;
@@ -24,7 +25,7 @@ span.backLabel {
 
 span.backIcon {
     margin-right: 4px;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .container-fluid button:first-child {
