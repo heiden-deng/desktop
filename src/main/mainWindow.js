@@ -4,7 +4,7 @@
 import fs from 'fs';
 import path from 'path';
 
-import {app, BrowserWindow} from 'electron';
+import {app, BrowserWindow, BrowserView} from 'electron';
 
 import * as Validator from './Validator';
 
